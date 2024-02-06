@@ -1,0 +1,28 @@
+#ifndef DATABASEHANDLER_H
+#define DATABASEHANDLER_H
+
+#define DATABASE "record.db"
+
+#include "sqlite3.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+void createDatabase(void);
+
+void addAccount();
+
+void deleteAccount(const int accountNumber);
+
+int displayAllAccounts();
+
+int displayAccount(const int accountNumber);
+
+int displayAccountByName(const char * userName);
+
+void updateAccount();
+
+int entryExists(int accountNumber);
+
+int nameEntryExists(char * name);
+
+#endif

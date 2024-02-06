@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 11, 2024
+ *      Author: willi
+ */
+#include "calendar.h"
+#include <conio.h>
+
+int main(void){
+	int year, daycode;
+
+	year = inputyear();
+	daycode = determineDayCode(year);
+	determineLeapYear(year);
+	calendar(year, daycode);
+
+	printf("Hit enter to exit...");
+	getch();
+
+	return EXIT_SUCCESS;
+}

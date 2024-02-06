@@ -1,0 +1,44 @@
+/*
+ * Calendar.h
+ *
+ *  Created on: Jan 11, 2024
+ *      Author: willi
+ */
+
+#ifndef HEADER_CALENDAR_H_
+#define HEADER_CALENDAR_H_
+
+#include <stdio.h>
+
+#define TRUE 1
+#define FALSE 0
+#define LEAPYEAR 2
+
+int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+
+char *months[]=
+{
+	" ",
+	"\n\n\nJanuary",
+	"\n\n\nFebruary",
+	"\n\n\nMarch",
+	"\n\n\nApril",
+	"\n\n\nMay",
+	"\n\n\nJune",
+	"\n\n\nJuly",
+	"\n\n\nAugust",
+	"\n\n\nSeptember",
+	"\n\n\nOctober",
+	"\n\n\nNovember",
+	"\n\n\nDecember"
+};
+
+int inputyear(void);
+
+int determineDayCode(int);
+
+int determineLeapYear(int);
+
+void calendar(int,int);
+
+#endif /* HEADER_CALENDAR_H_ */

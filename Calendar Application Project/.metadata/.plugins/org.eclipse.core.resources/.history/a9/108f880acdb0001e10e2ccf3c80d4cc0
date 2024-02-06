@@ -1,0 +1,135 @@
+/*
+ * Calendar.c
+ *
+ *  Created on: Jan 11, 2024
+ *      Author: willi
+ */
+
+#include "calendar.h"
+
+int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+
+char *months[] = {
+    " ",
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+};
+
+void clearScreen() {
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
+
+void print_banner(int month, int year) {
+	printf("* * * * * * * * * * * * * * * *\n");
+    printf("\t%s %d\n", months[month], year);
+    printf("* * * * * * * * * * * * * * * *\n");
+    printf("\n\nSun  Mon  Tue  Wed  Thu  Fri  Sat\n" );
+}
+
+int inputyear(void){
+	int year = 0;
+
+	printf("Please enter a year (example: 1999): ");
+	scanf("%d", &year);
+
+	clearScreen();
+	return year;
+}
+
+int determineDayCode(int year){
+	int dayCode = 0;
+
+	//Calculate the number of leap years that occurred
+	//before the current year, subtracting one to include
+	//the current year.
+	int leapYear4 = (year - 1) / 4;
+	//calculate the number of years that are multiple of 100
+	int leapYear100 = (year - 1) / 100;
+	//Calculates the number of years that are multiple of 400
+	int leapYear400 = (year - 1) / 400;
+
+	//Calculate the day code(day of the week)
+	//mod 7 is to get a number between 0 and 6
+	dayCode = (year + leapYear4 - leapYear100 + leapYear400) % 7;
+	return dayCode;
+}
+
+int determineLeapYear(int year){
+	//Check if the current year is a leap year
+	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+		//A leap year, update days in the month of February
+		daysInMonth[FEBRURARY] = 29;
+		return TRUE;
+	}else{
+		daysInMonth[FEBRURARY] = 28;
+		return FALSE;
+	}
+}
+
+void calendar(int year,int dayCode){
+	int month = 1, day = 1;
+	int prevDaycode = dayCode;
+
+	while(month <= MONTHS){
+		print_banner(month, year);
+		// Correct the position for the first date
+		for (day = 1; day <= 1 + dayCode * 5; day++) {
+			printf(" ");
+		}
+
+		//Print all the dates for one month
+		for(day = 1; day <= daysInMonth[month]; day++){
+			printf("%2d", day);
+
+			//Check if the current day is before Sat
+			if((day + dayCode) % 7 > 0){
+				printf("   ");
+			}else{
+				printf("\n");
+			}
+		}
+
+		printf("\n\n");
+
+		//Set position for next month
+		dayCode = (dayCode + daysInMonth[month]) % 7;
+
+		char userChoice;
+		printf("Press 'n' to display next month, " \
+				"Press 'p' to display previous month and " \
+				"press 'q' to quit: ");
+		userChoice = getche();
+		clearScreen();
+
+		switch(userChoice){
+		case 'n':
+			month++;
+			break;
+		case 'p':
+			month--;
+			if(month < 1) {
+				month = 1;
+			}
+			break;
+		case 'q':
+			exit(EXIT_SUCCESS);
+		}
+
+		//Set position for next month
+		dayCode = (dayCode + daysInMonth[month]) % 7;
+	}
+}

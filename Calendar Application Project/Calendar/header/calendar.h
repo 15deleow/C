@@ -1,0 +1,36 @@
+/*
+ * Calendar.h
+ *
+ *  Created on: Jan 11, 2024
+ *      Author: willi
+ */
+
+#ifndef HEADER_CALENDAR_H_
+#define HEADER_CALENDAR_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+#define TRUE 1
+#define FALSE 0
+#define FEBRURARY 2
+#define MONTHS 12
+
+extern int daysInMonth[];
+
+extern char *months[];
+
+void clearScreen();
+
+void print_banner(int,int);
+
+int inputyear(void);
+
+int determineDayCode(int);
+
+int determineLeapYear(int);
+
+void calendar(int,int);
+
+#endif /* HEADER_CALENDAR_H_ */

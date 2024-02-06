@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "includes/BankManagementSystem.h": "c",
+        "includes/sqlite3.h": "c"
+    }
+}

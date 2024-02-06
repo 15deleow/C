@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 11, 2024
+ *      Author: willi
+ */
+#include "calendar.h"
+
+int main(void){
+	int year, daycode, leapyear;
+
+	year = inputyear();
+	daycode = determindedDay(year);
+	determindeleapyear(year);
+	calendar(year, daycode);
+	printf("\n");
+
+	return EXIT_SUCCESS;
+}

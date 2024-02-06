@@ -1,0 +1,7 @@
+15:41:13 **** Incremental Build of configuration Debug for project Bank Management System ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Bank Management System\\Bank Management System\\includes" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\DatabaseHandler.o" "..\\src\\DatabaseHandler.c" 
+gcc -o "Bank Management System.exe" "src\\BankManagementSystem.o" "src\\DatabaseHandler.o" "src\\Main.o" "src\\sqlite3.o" 
+
+15:41:14 Build Finished. 0 errors, 0 warnings. (took 439ms)
+

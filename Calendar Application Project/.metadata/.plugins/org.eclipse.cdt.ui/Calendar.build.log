@@ -1,0 +1,7 @@
+14:06:08 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+
+14:06:08 Build Finished. 0 errors, 0 warnings. (took 391ms)
+

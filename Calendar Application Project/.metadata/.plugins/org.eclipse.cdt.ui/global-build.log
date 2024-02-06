@@ -1,0 +1,1078 @@
+11:46:08 **** Rebuild of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c:7:23: fatal error: calendary.h: No such file or directory
+ #include "calendary.h"
+                       ^
+compilation terminated.
+11:46:26 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:12:9: warning: implicit declaration of function 'inputyear' [-Wimplicit-function-declaration]
+  year = inputyear();
+         ^~~~~~~~~
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:15:2: warning: implicit declaration of function 'calendar' [-Wimplicit-function-declaration]
+  calendar(year, daycode);
+  ^~~~~~~~
+..\src\main.c:16:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("\n")
+  ^~~~~~
+..\src\main.c:16:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\main.c:16:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\main.c:17:1: error: expected ';' before '}' token
+ }
+ ^
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:02:46 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                          ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                             ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                                ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: note: (near initialization for 'daysInMonth')
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:18:9: error: 'EXIT_SUCCESS' undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^~~~~~~~~~~~
+..\src\main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:03:09 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                          ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                             ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                                ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: note: (near initialization for 'daysInMonth')
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:18:9: error: 'EXIT_SUCCESS' undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^~~~~~~~~~~~
+..\src\main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:03:39 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                          ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                             ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                                ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: note: (near initialization for 'daysInMonth')
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:18:9: error: 'EXIT_SUCCESS' undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^~~~~~~~~~~~
+..\src\main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:04:02 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                          ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                             ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                                ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: note: (near initialization for 'daysInMonth')
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:18:9: error: 'EXIT_SUCCESS' undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^~~~~~~~~~~~
+..\src\main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:12:26 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+In file included from ..\src\calendar.c:8:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:23: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:27: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:31: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:35: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:39: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                           ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:43: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                               ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:47: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                   ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:51: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                       ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:55: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                          ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:58: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                             ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:61: note: (near initialization for 'daysInMonth')
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: warning: excess elements in scalar initializer
+ int daysInMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                                                                ^~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:17:64: note: (near initialization for 'daysInMonth')
+..\src\calendar.c: In function 'determineLeapYear':
+..\src\calendar.c:40:14: error: subscripted value is neither array nor pointer nor vector
+   daysInMonth[FEBRURARY] = 29;
+              ^
+..\src\calendar.c:43:14: error: subscripted value is neither array nor pointer nor vector
+   daysInMonth[FEBRURARY] = 28;
+              ^
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:48:1: error: parameter name omitted
+ void calendar(int,int){
+ ^~~~
+..\src\calendar.c:48:1: error: parameter name omitted
+12:12:30 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:48:1: error: parameter name omitted
+ void calendar(int,int){
+ ^~~~
+..\src\calendar.c:48:1: error: parameter name omitted
+12:21:00 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:18:9: error: 'EXIT_SUCCESS' undeclared (first use in this function)
+  return EXIT_SUCCESS;
+         ^~~~~~~~~~~~
+..\src\main.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+12:22:05 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:13:12: warning: implicit declaration of function 'determindedDay' [-Wimplicit-function-declaration]
+  daycode = determindedDay(year);
+            ^~~~~~~~~~~~~~
+..\src\main.c:14:2: warning: implicit declaration of function 'determindeleapyear' [-Wimplicit-function-declaration]
+  determindeleapyear(year);
+  ^~~~~~~~~~~~~~~~~~
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:13: undefined reference to `determindedDay'
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:14: undefined reference to `determindeleapyear'
+collect2.exe: error: ld returned 1 exit status
+12:22:42 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:10:21: warning: unused variable 'leapyear' [-Wunused-variable]
+  int year, daycode, leapyear;
+                     ^~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:23:47 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:24:46 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:19:12: warning: 'daysInMonth' defined but not used [-Wunused-variable]
+ static int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+            ^~~~~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x40): multiple definition of `months'
+src\calendar.o:calendar.c:(.data+0x40): first defined here
+collect2.exe: error: ld returned 1 exit status
+12:26:11 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:27:49 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:49:13: warning: unused variable 'day' [-Wunused-variable]
+  int month, day;
+             ^~~
+..\src\calendar.c:49:6: warning: unused variable 'month' [-Wunused-variable]
+  int month, day;
+      ^~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:28:05 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:49:13: warning: unused variable 'day' [-Wunused-variable]
+  int month, day;
+             ^~~
+..\src\calendar.c:49:6: warning: unused variable 'month' [-Wunused-variable]
+  int month, day;
+      ^~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:26: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:28:50 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:28:51 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:29:43 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+In file included from ..\src\calendar.c:8:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:19:12: warning: 'daysInMonth' initialized and declared 'extern'
+ extern int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+            ^~~~~~~~~~~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:21:14: warning: 'months' initialized and declared 'extern'
+ extern char *months[]=
+              ^~~~~~
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+In file included from ..\src\main.c:7:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:19:12: warning: 'daysInMonth' initialized and declared 'extern'
+ extern int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+            ^~~~~~~~~~~
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:21:14: warning: 'months' initialized and declared 'extern'
+ extern char *months[]=
+              ^~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+src\main.o:main.c:(.data+0x0): multiple definition of `daysInMonth'
+src\calendar.o:calendar.c:(.data+0x0): first defined here
+src\main.o: In function `main':
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/main.c:15: multiple definition of `months'
+src\calendar.o:C:\Users\willi\Documents\C\Calendar Application Project\Calendar\Debug/../src/calendar.c:24: first defined here
+collect2.exe: error: ld returned 1 exit status
+12:30:50 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c:10:21: error: expected expression before '=' token
+ int daysInMonth[] = = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+                     ^
+12:31:00 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:32:54 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c:10:12: error: static declaration of 'daysInMonth' follows non-static declaration
+ static int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30,31,30,31};
+            ^~~~~~~~~~~
+In file included from ..\src\calendar.c:8:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:19:12: note: previous declaration of 'daysInMonth' was here
+ extern int daysInMonth[];
+            ^~~~~~~~~~~
+..\src\calendar.c:12:14: error: static declaration of 'months' follows non-static declaration
+ static char *months[] = {
+              ^~~~~~
+In file included from ..\src\calendar.c:8:0:
+C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:21:14: note: previous declaration of 'months' was here
+ extern char *months[];
+              ^~~~~~
+12:33:24 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+12:36:30 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:19:2: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:37:27 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:2: warning: implicit declaration of function 'getch' [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Calendar.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:38:21 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+12:38:57 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:39:19 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:40:08 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:40:28 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:40:53 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:42:03 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'clearScreen':
+..\src\calendar.c:29:9: warning: multi-character character constant [-Wmultichar]
+  system('cls');
+         ^~~~~
+..\src\calendar.c:29:9: warning: passing argument 1 of 'system' makes pointer from integer without a cast [-Wint-conversion]
+In file included from C:\Users\willi\Documents\C\Calendar Application Project\Calendar\header/calendar.h:12:0,
+                 from ..\src\calendar.c:8:
+c:\mingw\include\stdlib.h:495:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int system (const char *);
+                                      ^~~~~~
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+12:43:28 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+12:44:26 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:44:44 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:45:04 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:45:20 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:45:36 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:11:12: warning: variable 'daycode' set but not used [-Wunused-but-set-variable]
+  int year, daycode;
+            ^~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:45:49 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:46:04 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:46:13 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:46:26 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:46:42 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+12:47:20 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:79:44: warning: statement with no effect [-Wunused-value]
+   printf("%s , %d\n", months[month], year);2
+                                            ^
+..\src\calendar.c:80:3: error: expected ';' before 'printf'
+   printf("\n\nSun Mon Tue Wed Thu Fri Sat\n");
+   ^~~~~~
+12:47:33 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:04:46 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:05:13 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:05:21 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:05:30 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:79:42: warning: statement with no effect [-Wunused-value]
+   printf("%s , %d", months[month], year);2
+                                          ^
+..\src\calendar.c:80:3: error: expected ';' before 'printf'
+   printf("\n\nSun Mon Tue Wed Thu Fri Sat\n");
+   ^~~~~~
+13:05:38 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:12:54 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:13:34 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:13:52 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:14:03 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:14:11 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:16:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:16:29 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:16:53 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:17:03 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:17:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:89:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:17:30 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:17:39 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:20:41 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:22:00 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:22:12 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:89:14: warning: unknown escape sequence: '\w'
+       printf("\w"); // Print three spaces
+              ^~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:23:26 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:23:48 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:25:01 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:25:08 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:26:05 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:27:30 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:27:51 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:28:01 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:28:17 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:28:41 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:29:05 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:29:21 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:30:34 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:31:33 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:32:00 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:33:56 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:92:13: warning: unknown conversion type character '+' in format [-Wformat=]
+   printf("%1+dayCode*5d", 1);
+             ^
+..\src\calendar.c:92:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("%1+dayCode*5d", 1);
+          ^~~~~~~~~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Calendar.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:34:02 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:37:00 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:38:57 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:39:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:40:01 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:40:24 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:40:38 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:89:11: warning: zero-length ms_printf format string [-Wformat-zero-length]
+    printf("");
+           ^~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:41:35 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:41:50 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:45:10 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:110:13: error: expected ')' before 'p'
+     "Press "p" to display previous month and " \
+             ^
+13:45:24 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:48:49 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c", userChoice);
+           ^
+..\src\calendar.c:113:3: warning: 'userChoice' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%c", userChoice);
+   ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:49:03 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c", userChoice);
+           ^
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:49:13 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:109:21: error: empty character constant
+   char userChoice = '';
+                     ^~
+..\src\calendar.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c", userChoice);
+           ^
+13:49:22 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:113:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c", userChoice);
+           ^
+..\src\calendar.c:113:3: warning: 'userChoice' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%c", userChoice);
+   ^~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:50:03 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:115:10: error: switch quantity not an integer
+   switch(userChoice){
+          ^~~~~~~~~~
+..\src\calendar.c:116:3: error: case label does not reduce to an integer constant
+   case "n":
+   ^~~~
+..\src\calendar.c:118:3: error: case label does not reduce to an integer constant
+   case "p":
+   ^~~~
+..\src\calendar.c:121:3: error: case label does not reduce to an integer constant
+   case "q":
+   ^~~~
+13:50:25 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:113:16: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+   userChoice = getche();
+                ^~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:51:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:113:16: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+   userChoice = getche();
+                ^~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:52:09 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:52:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+13:54:36 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:55:18 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+13:57:10 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+14:00:09 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:90:36: warning: 'daycode' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   for (day = 1; day <= 1 + daycode * 5; day++) {
+                            ~~~~~~~~^~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+14:00:29 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+14:02:04 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:85:6: warning: unused variable 'prevDaycode' [-Wunused-variable]
+  int prevDaycode = dayCode;
+      ^~~~~~~~~~~
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+14:03:14 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+..\src\calendar.c: In function 'calendar':
+..\src\calendar.c:87:1: error: 'p' undeclared (first use in this function)
+ p while(month <= MONTHS){
+ ^
+..\src\calendar.c:87:1: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calendar.c:87:3: error: expected ';' before 'while'
+ p while(month <= MONTHS){
+   ^~~~~
+..\src\calendar.c:85:6: warning: unused variable 'prevDaycode' [-Wunused-variable]
+  int prevDaycode = dayCode;
+      ^~~~~~~~~~~
+..\src\calendar.c:84:17: warning: unused variable 'day' [-Wunused-variable]
+  int month = 1, day = 1;
+                 ^~~
+..\src\calendar.c:84:6: warning: unused variable 'month' [-Wunused-variable]
+  int month = 1, day = 1;
+      ^~~~~
+14:03:25 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+Info: Nothing to build for Calendar
+14:04:48 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+Info: Nothing to build for Calendar
+14:05:52 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
+14:06:08 **** Incremental Build of configuration Debug for project Calendar ****
+Info: Internal Builder is used for build
+gcc "-IC:\\Users\\willi\\Documents\\C\\Calendar Application Project\\Calendar\\header" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calendar.o" "..\\src\\calendar.c" 
+gcc -o Calendar.exe "src\\calendar.o" "src\\main.o" 
